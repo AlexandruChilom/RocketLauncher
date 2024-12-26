@@ -9,7 +9,7 @@ public class Rocket {
                 System.out.println("The rocket has been launched!");
                 continue;
             }
-            System.out.println(i);
+            System.out.println(i + "..");
             Thread.sleep(1000);
         }
     }
