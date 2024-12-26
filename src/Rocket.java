@@ -1,5 +1,5 @@
 public class Rocket {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         for (int i = 10; i >= 0; i--) {
             if (i == 5){
                 System.out.println("Thrusters started!");
@@ -10,6 +10,7 @@ public class Rocket {
                 continue;
             }
             System.out.println(i);
+            Thread.sleep(1000);
         }
     }
 }
