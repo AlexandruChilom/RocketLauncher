@@ -5,6 +5,10 @@ public class Rocket {
                 System.out.println("Thrusters started!");
                 continue;
             }
+            if (i == 0){
+                System.out.println("The rocket has been launched!");
+                continue;
+            }
             System.out.println(i);
         }
     }
